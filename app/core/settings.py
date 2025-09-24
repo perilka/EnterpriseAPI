@@ -28,10 +28,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'authenticate.apps.AuthenticatedConfig',
+
     'rest_framework',
     'drf_spectacular',
+
+    'authenticate.apps.AuthenticatedConfig',
     'companies.apps.CompaniesConfig',
+    'products.apps.ProductsConfig',
+    'suppliers.apps.SuppliesConfig',
     'storages.apps.StoragesConfig',
 ]
 
