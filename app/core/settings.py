@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'products.apps.ProductsConfig',
     'suppliers.apps.SuppliesConfig',
     'storages.apps.StoragesConfig',
+    'sales.apps.SalesConfig'
 ]
 
 MIDDLEWARE = [

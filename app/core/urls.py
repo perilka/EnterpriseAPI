@@ -19,5 +19,6 @@ urlpatterns = [
     path('storages/', include('storages.urls')),
     path("supp/", include("suppliers.urls")),
     path("products/", include("products.urls")),
+    path("sales/", include("sales.urls")),
     path('', include('authenticate.urls')),
 ]
