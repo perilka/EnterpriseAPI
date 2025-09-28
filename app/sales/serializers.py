@@ -33,7 +33,7 @@ class SaleSerializer(serializers.ModelSerializer):
             product = item["product"]
             quantity = item["quantity"]
             if product.storage.company != company:
-                errors[product.title] = "Товар не принадлежит вашей компании"
+                errors[product.title] = "Данного товара нет в наличии на вашем складе"
             elif product.quantity < quantity:
                 errors[product.title] = f"В наличии только {product.quantity}"
 
